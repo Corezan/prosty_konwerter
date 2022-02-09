@@ -2,6 +2,8 @@
 
 using namespace std;
 
+
+
 float metry; // wartoœæ wpisana przez u¿ytkownika
 
 
@@ -23,15 +25,21 @@ void ile_milimetrow(float m) //procedura konwertuj¹ca z metrów na milimetry
 
 int main()
 
+{   for(;;)
 {
+
+
     cout<< "ile metrow?"<< endl;
     cin>> metry;
     cout<< "Na centymetry: " <<ile_centymetrow(metry)<< endl;
     cout<< "Na kilometry: " <<ile_kilometrow(metry)<< endl;
     ile_milimetrow(metry);
 
+getchar();
+getchar();
 
-
+system ("cls");
+}
     return 0;
 }
 
